@@ -70,16 +70,18 @@ const Signup = () => {
             type="email"
             name="email"
             value={email}
+            id="email"
             placeholder="Enter your email"
             onChange={handleOnChange}
           />
         </div>
         <div>
-          <label htmlFor="email">Username</label>
+          <label htmlFor="username">Username</label>
           <input
             type="text"
             name="username"
             value={username}
+            id="username"
             placeholder="Enter your username"
             onChange={handleOnChange}
           />
@@ -89,6 +91,7 @@ const Signup = () => {
           <input
             type="password"
             name="password"
+            id="password"
             value={password}
             placeholder="Enter your password"
             onChange={handleOnChange}

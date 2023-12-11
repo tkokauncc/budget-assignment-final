@@ -7,7 +7,7 @@ import Signup from "./pages/Signup";
 import "react-toastify/dist/ReactToastify.css";
 import CreateCategoryPage from "./pages/CreateCategory";
 import CreateExpensePage from "./pages/CreateExpense";
-
+import About from "./pages/About";
 function App() {
   return (
     <div>
