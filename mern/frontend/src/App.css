@@ -1,0 +1,9 @@
+.about-page {
+    text-align: center;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
